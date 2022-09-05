@@ -2,3 +2,18 @@
     height: 620px;
     text-align: center;
 }
+.midform{
+  height: 720px;
+  text-align: center;
+  margin-top: 25px;
+}
+.headtext{
+  text-align: center;
+}
+.signupbody{
+  background-color: rgba(202, 197, 197, 0.495);
+}
+#signupimg{
+  height: 720px;
+  width: 120%;
+}
