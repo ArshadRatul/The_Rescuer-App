@@ -51,7 +51,8 @@
 
         <!-- Signup Form -->
         <div class="midform col-6 col-md-4">
-          <form>
+          <form action="/signupButton" method="post">
+            {% csrf_token %}
             <h1 class="headtext">Signup</h1>
 
            <!-- First name -->
@@ -203,6 +204,8 @@
                 aria-label="Confirm Password"
               />
             </div>
+            
+            <button type="submit" class="btn btn-primary">Sign-up</button>
 
           </form>
         </div>
